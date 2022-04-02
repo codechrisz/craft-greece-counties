@@ -1,0 +1,41 @@
+{
+    "name": "codechrisz/craft-greece-counties",
+    "description": "Migrate the counties of Greece for craft commerce",
+    "type": "craft-plugin",
+    "version": "0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft greece counties"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "codechrisz",
+            "homepage": "https://codechrisz.github.io/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "codechrisz\\craftgreececounties\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Craft Greece counties",
+        "handle": "craft-greece-counties",
+        "developer": "codechrisz",
+        "developerUrl": "https://codechrisz.github.io/",
+        "documentationUrl": "???",
+        "changelogUrl": "???",
+        "class": "codechrisz\\craftgreececounties\\CraftGreeceCounties"
+    }
+}
